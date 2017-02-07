@@ -10,9 +10,9 @@ weatherApp.config(function ($routeProvider) {
       controller: 'mainController'
     })
 
-    .when('/forecasting', {
-      templateUrl: 'pages/forecasting.html',
-      controller: 'forecastingController'
+    .when('/forecast', {
+      templateUrl: 'pages/forecast.html',
+      controller: 'forecastController'
     })
 
 });
@@ -24,7 +24,7 @@ weatherApp.controller('mainController', ['$scope', function($scope) {
 
 }]);
 
-weatherApp.controller('forecastingController', ['$scope', function($scope) {
+weatherApp.controller('forecastController', ['$scope', function($scope) {
 
 
 }]);
